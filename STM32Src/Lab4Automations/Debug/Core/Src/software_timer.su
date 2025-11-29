@@ -1,5 +1,0 @@
-software_timer.c:6:6:setTimer	16	static
-software_timer.c:12:6:rstAllTimer	16	static
-software_timer.c:19:6:clearTimer	16	static
-software_timer.c:25:5:isTimerExpired	16	static
-software_timer.c:30:6:timerRun	16	static

@@ -1,8 +1,0 @@
-fsm_traffic_light.c:25:6:set_led_buttons	16	static
-fsm_traffic_light.c:31:6:set_leds_traffic	24	static
-fsm_traffic_light.c:45:13:handle_init_state	24	static
-fsm_traffic_light.c:61:13:handle_time_down_state	16	static
-fsm_traffic_light.c:71:13:handlde_error_state	16	static
-fsm_traffic_light.c:85:13:handle_common_button	16	static
-fsm_traffic_light.c:109:13:handle_common_timer	16	static
-fsm_traffic_light.c:128:6:fsm_traffic_light_run	32	static
