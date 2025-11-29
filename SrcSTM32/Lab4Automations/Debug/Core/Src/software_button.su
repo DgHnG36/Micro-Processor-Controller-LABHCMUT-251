@@ -1,0 +1,5 @@
+software_button.c:32:6:buttonInit	16	static
+software_button.c:47:6:buttonReading	16	static
+software_button.c:82:9:isButtonPressed	16	static
+software_button.c:90:9:isButtonReleased	16	static
+software_button.c:98:9:isButtonLongPressed	16	static

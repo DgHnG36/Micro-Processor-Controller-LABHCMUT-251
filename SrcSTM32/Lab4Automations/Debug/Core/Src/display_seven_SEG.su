@@ -1,0 +1,4 @@
+display_seven_SEG.c:29:6:clear_all_leds	8	static
+display_seven_SEG.c:33:6:display_seven_SEG	24	static
+display_seven_SEG.c:41:6:update_seven_SEG	16	static
+display_seven_SEG.c:55:6:display_leds_nums	16	static

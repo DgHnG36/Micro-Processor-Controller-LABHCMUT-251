@@ -1,0 +1,6 @@
+mode_modify.c:3:10:set_timer_traffic_time	24	static
+mode_modify.c:9:6:init_led_time_buffer	24	static
+mode_modify.c:16:6:util_normal_mode	24	static
+mode_modify.c:34:6:normal_mode	16	static
+mode_modify.c:38:6:modify_mode	16	static
+mode_modify.c:42:6:set_mode	8	static
