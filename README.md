@@ -1,5 +1,4 @@
 # MICRO PROCESSOR AND MICRO CONTROLLER LAB REPORT HCMUT 251
---
 [![STM32](https://img.shields.io/badge/MCU-STM32-blue?logo=stmicroelectronics&logoColor=white)]()
 [![ARM Cortex-M](https://img.shields.io/badge/CPU-ARM%20Cortex--M-lightgrey?logo=arm&logoColor=blue)]()
 [![STM32CubeIDE](https://img.shields.io/badge/IDE-STM32CubeIDE-blue?logo=stmicroelectronics&logoColor=white)]()
