@@ -17,10 +17,13 @@ All details, instructions and report templates are in the ReportLabs section.
 The source code for each LAB is in the SrcSTM32 section.
 
 ## Usage 
-'''bash
+```bash
+# Clone the repository
 git clone https://github.com/DgHnG36/Micro-Processor-Controller-LABHCMUT-251
-cd Micro-Processor-Controller-LABHCMUT-251
 
+# Move to installed directory
+cd Micro-Processor-Controller-LABHCMUT-251
+```
 ## Note
 All reports and source code in this project are for learning and reference purposes only.
 
@@ -49,5 +52,5 @@ Micro-Processor-Controller-LABHCMUT-251/
     ├── Lab5Animations/
 ├── LICENSE
 └── README.md   
-
+```
 
