@@ -1,0 +1,2 @@
+fsm_auto.c:8:13:control_led_traffic	16	static
+fsm_auto.c:33:6:fsm_auto_run	8	static
