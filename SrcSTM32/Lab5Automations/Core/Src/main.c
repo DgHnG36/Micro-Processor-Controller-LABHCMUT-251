@@ -70,7 +70,7 @@ uint8_t temp = 0;
 
 void HAL_UART_RxCpltCallback ( UART_HandleTypeDef * huart ) {
 	if (huart->Instance == USART2 ) {
-		HAL_UART_Transmit(&huart2, &temp, 1, 50);
+		//HAL_UART_Transmit(&huart2, &temp, 1, 50); 
 		buffer_chr[idx_buffer++] = temp;
 		if (idx_buffer == MAX_BUFFER_SIZE) idx_buffer = 0;
 		command_flag = 1;
@@ -126,11 +126,11 @@ int main(void)
   setTimer(1, 300);
   while (1)
   {
-	  char welcome[50];
+	  //char welcome[50];
 	  if(buffer_flag == 1){
 		 buffer_flag = 0;
 	 	 command_parser();
-	 	 HAL_UART_Transmit(&huart2, (void *)welcome, sprintf(welcome, "%d\n", status_com), 50);
+	 	 //HAL_UART_Transmit(&huart2, (void *)welcome, sprintf(welcome, "%d\n", status_com), 50);  //DEBUG
 	 }
 	 uart_communication_fsm();
     /* USER CODE END WHILE */
@@ -369,3 +369,4 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif /* USE_FULL_ASSERT */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+
